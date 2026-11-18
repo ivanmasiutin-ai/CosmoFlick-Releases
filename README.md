@@ -28,19 +28,23 @@ Pro keeps working offline after activation. See the [website](https://cosmoflick
 
 ## Install
 
-The first GitHub installer is being prepared. There are no installer releases in this repository yet. The current portable download is available on the [website](https://cosmoflick.app/#download), where its version and unsigned status are shown.
+Download the [CosmoFlick 1.1.5 Dev installer](https://github.com/ivanmasiutin-ai/CosmoFlick-Releases/releases/tag/manual-v1.1.5) for Windows 10 and 11.
+
+**The app and installer are unsigned. Windows may show an unknown publisher or a SmartScreen warning. This Dev release requires manual installation and updating.** Read the release notes and limitations before testing.
 
 For portable: extract the ZIP to a writable folder and run **CosmoFlick.exe**. Keep the folder when updating so your settings and shortcuts remain available.
 
-The upcoming installer installs for your Windows account without administrator access. It can import settings and wheels from a portable folder, keeping the original files. Close CosmoFlick from the tray before installing. Uninstalling keeps your settings, wheels and Pro activation.
+The installer installs for your Windows account without administrator access. It can import settings and wheels from a portable folder, keeping the original files. Close CosmoFlick from the tray before installing. Uninstalling keeps your settings, wheels and Pro activation.
+
+To update an installed copy, back up your data, close CosmoFlick from the tray, then download and run the new installer in the same installation folder. Settings, wheels and Pro activation are kept. Unsigned packages are never installed automatically by CosmoFlick.
 
 After starting, open CosmoFlick from the tray to configure its shortcut and mouse button. The new installer starts with an empty wheel: choose **+** to add your first app. Example shortcuts in the screenshots are not bundled.
 
 ## Dev and Stable
 
-**Stable** is the default update channel for tested releases. **Dev** includes GitHub pre-releases for testing upcoming versions. Choose a channel in **Settings → System** in installer builds.
+**Stable** is the default update channel for tested releases. **Dev** includes GitHub pre-releases for testing upcoming versions. No Stable installer is published yet. Choose a channel in **Settings → System**. Starting with 1.1.5, manual releases can be discovered there using **Dev → Check for updates → Open release**. Earlier builds may not discover this manual channel; use the release page directly.
 
-A Dev release is promoted to Stable only after testing. Promotion keeps the same version, tag and installer. If the package needs a fix, it gets a new version. Installer releases include `release.json` with their version, changes, SHA-256 and signing information.
+A Dev release is promoted to Stable only after testing and the owner's decision. Promotion keeps the same version, tag and installer. If the package needs a fix, it gets a new version. Unsigned manual releases use `manual-v<version>` tags and include `unsigned-release.json` with their version, changes, SHA-256 and actual `NotSigned` status. `releaseReady: false` means ineligible for automatic installation. Hashes check integrity, not publisher identity. Future signed releases use `v<version>` and `release.json`; trusted publisher checks remain mandatory for automatic installation.
 
 ## Support
 
@@ -49,3 +53,4 @@ Email [support@cosmoflick.app](mailto:support@cosmoflick.app) with your Windows 
 [Restore Pro](https://cosmoflick.app/restore) · [Privacy](https://cosmoflick.app/privacy) · [License terms](https://cosmoflick.app/license-terms)
 
 This repository hosts public downloads and release information. CosmoFlick source code is maintained separately.
+
