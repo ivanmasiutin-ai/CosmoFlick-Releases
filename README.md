@@ -53,4 +53,3 @@ Email [support@cosmoflick.app](mailto:support@cosmoflick.app) with your Windows 
 [Restore Pro](https://cosmoflick.app/restore) · [Privacy](https://cosmoflick.app/privacy) · [License terms](https://cosmoflick.app/license-terms)
 
 This repository hosts public downloads and release information. CosmoFlick source code is maintained separately.
-
