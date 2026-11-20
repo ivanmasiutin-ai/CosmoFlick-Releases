@@ -14,6 +14,7 @@ Open the wheel at your pointer with a keyboard shortcut or a side mouse button. 
 - Add apps with fast search, including installed Steam games.
 - Use a keyboard shortcut, a side mouse button or number keys.
 - Adjust the magnet, gesture distance and sound to suit your hand.
+- Choose click-only launch by turning off Launch by movement.
 - Use the interface in English, Russian or Romanian.
 
 | Free | Pro |
@@ -21,6 +22,7 @@ Open the wheel at your pointer with a keyboard shortcut or a side mouse button. 
 | One wheel with up to 8 shortcuts | Unlimited shortcuts |
 | Magnet, flick gesture, search and sound | Actions, commands and text |
 | Aurora theme | All themes, subwheels and app wheels |
+| Cursor hidden while aiming in the wheel | Contour cursor in CosmoFlick windows, menus and on + |
 
 Pro keeps working offline after activation. See the [website](https://cosmoflick.app/#pro) for current availability and terms.
 
@@ -28,7 +30,7 @@ Pro keeps working offline after activation. See the [website](https://cosmoflick
 
 ## Install
 
-Download the [CosmoFlick 1.1.5 Dev installer](https://github.com/ivanmasiutin-ai/CosmoFlick-Releases/releases/tag/manual-v1.1.5) for Windows 10 and 11.
+Download the [CosmoFlick 1.1.6 Dev installer](https://github.com/ivanmasiutin-ai/CosmoFlick-Releases/releases/tag/manual-v1.1.6) for Windows 10 and 11.
 
 **The app and installer are unsigned. Windows may show an unknown publisher or a SmartScreen warning. This Dev release requires manual installation and updating.** Read the release notes and limitations before testing.
 
