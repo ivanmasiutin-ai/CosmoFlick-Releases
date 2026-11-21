@@ -24,13 +24,13 @@ Open the wheel at your pointer with a keyboard shortcut or a side mouse button. 
 | Aurora theme | All themes, subwheels and app wheels |
 | Cursor hidden while aiming in the wheel | Contour cursor in CosmoFlick windows, menus and on + |
 
-Pro keeps working offline after activation. See the [website](https://cosmoflick.app/#pro) for current availability and terms.
+Pro keeps working offline after activation. Starting with 1.1.10, paste the short code from the website or Telegram into **Settings → Wheel → Open Pro**. Existing long keys and saved activation remain valid. See the [website](https://cosmoflick.app/#pro) for current availability and terms.
 
 <img src="images/search.png" width="700" alt="Add to wheel search with example app results">
 
 ## Install
 
-Download the [CosmoFlick 1.1.9 Dev installer](https://github.com/ivanmasiutin-ai/CosmoFlick-Releases/releases/tag/manual-v1.1.9) for Windows 10 and 11.
+Download the [CosmoFlick 1.1.10 Dev installer](https://github.com/ivanmasiutin-ai/CosmoFlick-Releases/releases/tag/manual-v1.1.10) for Windows 10 and 11.
 
 **The app and installer are unsigned. Windows may show an unknown publisher or a SmartScreen warning. This Dev release requires manual installation and updating.** Read the release notes and limitations before testing.
 
@@ -53,3 +53,4 @@ Email [support@cosmoflick.app](mailto:support@cosmoflick.app) with your Windows 
 [Restore Pro](https://cosmoflick.app/restore) · [Privacy](https://cosmoflick.app/privacy) · [License terms](https://cosmoflick.app/license-terms)
 
 This repository hosts public downloads and release information. CosmoFlick source code is maintained separately.
+
